@@ -12534,12 +12534,7 @@ body.error404 .page-404-wrap .pxl-error-inner .pxl-button-wrapper {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorStr="var(--additional02-color)", endColorStr="var(--additional03-color)", gradientType="1")
 }
 
-.pxl-archive-post.format-quote .format-wrap:after {
-    background-image: url(../../assets/images/format-quote-overlay.png);
-    background-repeat: no-repeat;
-    background-position: 50%;
-    background-size: cover
-}
+
 
 .pxl-archive-post.format-quote .quote-inner {
     position: relative;
@@ -12616,12 +12611,7 @@ body.error404 .page-404-wrap .pxl-error-inner .pxl-button-wrapper {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorStr="#3879ef", endColorStr="#023c9b", gradientType="1")
 }
 
-.pxl-archive-post.format-link .format-wrap:after {
-    background-image: url(../../assets/images/format-link-overlay.png);
-    background-repeat: no-repeat;
-    background-position: 50%;
-    background-size: cover
-}
+
 
 .pxl-archive-post.format-link .link-inner {
     position: relative;
@@ -17440,7 +17430,7 @@ p.no-comments {
 }
 
 .pxl-accordion.style4 .pxl-ac-title:before {
-    content: "";
+    content: "\2b";
     font-family: material-design-iconic-font;
     font-size: 21px;
     font-weight: 500;
@@ -17457,7 +17447,7 @@ p.no-comments {
 }
 
 .pxl-accordion.style4 .pxl-ac-title.active:before {
-    content: ""
+    content: "-"
 }
 
 .pxl-accordion.style4 .pxl-ac-content {

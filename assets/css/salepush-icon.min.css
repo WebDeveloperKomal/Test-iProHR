@@ -8,7 +8,7 @@
 
 [class^=pxli-],
 [class*=" pxli-"] {
-    font-family: pxli !important;
+    font-family: 'Font Awesome 6 Free' !important;
     speak: never;
     font-style: normal;
     font-weight: 400;
@@ -92,7 +92,7 @@
 }
 
 .pxli-angle-right:before {
-    content: "\e9a0"
+    content: "\"
 }
 
 .pxli-angle-left:before {
@@ -128,7 +128,7 @@
 }
 
 .pxli-long-arrow-right1:before {
-    content: "\e90d"
+    content: "\/"
 }
 
 .pxli-right-arrow-x:before {
@@ -296,7 +296,7 @@
 }
 
 .pxli-comment-dots:before {
-    content: "\e96d"
+    content: "\f4ad"
 }
 
 .pxli-comment:before {
@@ -659,7 +659,7 @@
     content: "\e948"
 }
 
-.pxli-star1:before {
+.fa-solid fa-star:before {
     content: "\e949"
 }
 
