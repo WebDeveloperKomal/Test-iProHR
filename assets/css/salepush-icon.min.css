@@ -19,11 +19,11 @@
     -moz-osx-font-smoothing: grayscale
 }
 
-.pxli-arrow-left:before {
+.fa-solid fa-arrow-left:before {
     content: "\e975"
 }
 
-.pxli-arrow-right:before {
+.fa-solid fa-arrow-right:before {
     content: "\e976"
 }
 
@@ -267,7 +267,7 @@
     content: "\e97a"
 }
 
-.pxli-arrow-right-solid:before {
+.fa-solid fa-arrow-right-solid:before {
     content: "\e97c"
 }
 
@@ -279,7 +279,7 @@
     content: "\e968"
 }
 
-.pxli-comment-dots1:before {
+.pxli-comment-dots:before {
     content: "\e969"
 }
 
@@ -603,11 +603,11 @@
     content: "\e986"
 }
 
-.pxli-play-circle:before {
+.fa-solid fa-play-circle:before {
     content: "\e938"
 }
 
-.pxli-play:before {
+.fa-solid fa-play:before {
     content: "\e939"
 }
 

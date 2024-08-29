@@ -7226,22 +7226,7 @@ a.hover-underline-out:hover:after {
     padding-bottom: 3px
 }
 
-.custom-testimonial .elementor-testimonial-image:before {
-    content: "";
-    display: block;
-    width: 34px;
-    height: 38px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-image: url(../images/conversation-mark.png);
-    background-size: cover;
-    background-position: 50%;
-    background-repeat: no-repeat;
-    transition: all 200ms linear 0s;
-    opacity: 0;
-    visibility: hidden
-}
+
 
 .custom-testimonial:hover .elementor-testimonial-image:before {
     opacity: 1;
@@ -7808,11 +7793,11 @@ a.hover-underline-out:hover:after {
     content: none !important
 }
 
-.landing-testi .pxl-swiper-arrows.style-default .pxl-swiper-arrow .pxli-arrow-left:before {
+.landing-testi .pxl-swiper-arrows.style-default .pxl-swiper-arrow .fa-solid fa-arrow-left:before {
     content: ""
 }
 
-.landing-testi .pxl-swiper-arrows.style-default .pxl-swiper-arrow .pxli-arrow-right:before {
+.landing-testi .pxl-swiper-arrows.style-default .pxl-swiper-arrow .fa-solid fa-arrow-right:before {
     content: ""
 }
 
@@ -9662,7 +9647,7 @@ input[type=button].btn-secondary:hover,
     z-index: 1
 }
 
-.item-readmore .btn i.pxli-arrow-right-solid {
+.item-readmore .btn i.fa-solid fa-arrow-right-solid {
     font-size: 10px;
     margin-left: 7px
 }
@@ -10476,8 +10461,8 @@ a.logo-mobile {
         top: 51%;
         transform: translateY(-50%);
         color: var(--heading-color);
-        content: "";
-        font-family: material-design-iconic-font;
+        content: "\f078";
+        font-family: 'Font Awesome 6 Free';
         font-size: 18px;
         font-weight: 500
     }
@@ -10876,13 +10861,13 @@ a.logo-mobile {
 
 .pxl-mobile-menu .main-menu-toggle:before {
     color: var(--heading-color);
-    content: "";
-    font-family: material-design-iconic-font;
+    content: "\+";
+    font-family: 'Font Awesome 6 Free';
     font-size: 25px
 }
 
 .pxl-mobile-menu .main-menu-toggle.open:before {
-    content: ""
+    content: "-"
 }
 
 .pxl-mobile-menu .sub-menu .main-menu-toggle {
