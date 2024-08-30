@@ -10384,7 +10384,7 @@ a.logo-mobile {
     }
 
     .pxl-primary-menu .sub-menu {
-        min-width: 220px;
+        min-width: 560px;
         color: var(--heading-color);
         background-color: #fff;
         background-repeat: repeat-x;
@@ -10392,7 +10392,7 @@ a.logo-mobile {
         position: absolute;
         top: calc(100% + 20px);
         left: 100%;
-        padding: 20px 0 25px;
+        padding: 20px 100px 20px 0px;
         z-index: -1;
         opacity: 0;
         visibility: hidden;
